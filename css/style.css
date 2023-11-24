@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins&family=Roboto:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+header {
+  background-color: #2874f0;
+}
+
+nav ul {
+  display: flex;
+  height: 8vh;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 500px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 0 15px 0 55px;
+}
+
+.btn {
+  color: white;
+  background-color: #2874f0;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  height: 35px;
+  width: 80px;
+}
+
+.search button {
+  font-family: "Poppins", sans-serif;
+  /* font-weight:900; */
+}
+
+main {
+  min-height: calc(100vh - 8vh - 10vh);
+  background-color: white;
+}
+
+footer {
+  background-color: #2874f0;
+  color: white;
+  height: 10vh;
+  font-family: "Poppins", sans-serif;
+  margin-top: 100px;
+}
+
+.container .slider img {
+  height: 30vh;
+  margin: 25px auto;
+
+}
+
+.container {
+  background-color: white;
+  margin: auto 30px;
+
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-items {
+  display: flex;
+}
+
+.img1:hover {
+  height: 255px;
+}
+
+.img2:hover {
+  height: 260px;
+}
+
+.img1 {
+  height: 250px;
+  margin: auto 20px;
+}
+
+.img2 {
+  height: 250px;
+  margin: auto 20px;
+}
+
+.img3 {
+  height: 250px;
+  margin: auto 20px;
+}
+
+.img4 {
+  height: 250px;
+  margin: auto 20px;
+}
+
+.img5 {
+  height: 250px;
+  margin: auto 20px;
+}
+
+.img6 {
+  height: 250px;
+  margin: auto 20px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  margin: 10px auto;
+  font-weight: 300;
+}
+
+.lines .p1 {
+  color: rgb(33, 181, 132);
+}
+
+.lines {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+
+@keyframes cover1 {
+  0% {
+    transform: translate(0px);
+  }
+
+  50% {
+    transform: translate(-200px);
+  }
+
+  100% {
+    transform: translate(-600px);
+  }
+}
+
+@keyframes cover2 {
+  0% {
+    width: auto;
+    height: auto;
+  }
+
+  50% {
+    width: 290px;
+    height: 300px;
+  }
+
+  100% {
+    width: 310px;
+    height: 310px;
+  }
+}
+
+@keyframes cover3 {
+  0% {
+    transform: translate(0px);
+  }
+
+  50% {
+    transform: translate(200px);
+  }
+
+  100% {
+    transform: translate(600px);
+  }
+}
+
+.container .slider .slide1 {
+  animation: cover1 3s ease-in-out 1s 3;
+}
+
+.container .slider .slide2 {
+  height: 300px;
+  width: 300px;
+  animation: cover2 3s ease-in-out 1s 3;
+}
+
+.container .slider .slide3 {
+  animation: cover3 3s ease-in-out 1s 3;
+}
+
+.s1 {
+  margin: 20px 70px 0 100px;
+}
+
+.s2 {
+  margin: 20px 70px 0 200px;
+}
+
+.s3 {
+  margin: 20px 70px 0 210px;
+}
+
+.s4 {
+  margin: 20px 70px 0 120px;
+}
+
+.s5 {
+  margin: 20px 70px 0 180px;
+}
+
+.s6 {
+  margin: 20px 70px 0 150px;
+}
+
+hr {
+  margin: 20px auto;
+}
+
+.a1 {
+  margin: 20px 70px 0 100px;
+}
+
+.a2 {
+  margin: 20px 70px 0 150px;
+}
+
+.a3 {
+  margin: 20px 70px 0 150px;
+}
+
+.a4 {
+  margin: 20px 70px 0 100px;
+}
+
+.a5 {
+  margin: 20px 70px 0 150px;
+}
+
+.a6 {
+  margin: 20px 70px 0 130px;
+}
+
+.slide1:hover {
+  height: 400px;
+  width: 300px;
+}
+
+.slide2:hover {
+  height: 400px;
+  width: 300px;
+}
+
+.slide3:hover {
+  height: 400px;
+  width: 250px;
+}
+
+.login {
+  color: #110901;
+  background-color: rgb(245, 245, 245);
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+
+.login:hover {
+  height: 35px;
+  width: 80px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-left: 32vw;
+
+}
